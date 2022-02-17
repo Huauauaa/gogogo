@@ -32,12 +32,12 @@ a := []int{1,2,3}
 
 - bool
 - string
-- int/int8/int16/int64
-- uint/unit8/unit16/unit32/unit64/uintptr
+- 有符号整数类型: int/int8/int16/int32/int64
+- 无符号整数类型: uint/unit8/unit16/unit32/unit64/uintptr
 - type(uint8 的别名)
 - rube(int32 的别名,代表一个 Unicode)
-- float32/float64
-- complex64/complex128
+- 小数类型: float32/float64
+- 复数: complex64/complex128
 
 ### 初始化
 
