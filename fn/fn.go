@@ -1,6 +1,19 @@
-package main
+package fn
 
-import "fmt"
+import (
+    "fmt"
+    "time"
+)
+
+func duration() {
+    start := time.Now()
+    sum := 0
+    for i := 0; i < 100000000; i++ {
+        sum++
+    }
+    elapsed := time.Now().Sub(start)
+    fmt.Println("duration is", elapsed)
+}
 
 func sum(args ...int) int {
     result := 0
@@ -15,13 +28,4 @@ func fibonacci(n int) (res int) {
         return 1
     }
     return fibonacci(n-1) + fibonacci(n-2)
-}
-func main() {
-    // fmt.Println(sum(4, 5))
-    // fmt.Println(sum(7, 8, 9))
-    fmt.Println(fmt.Println("a"))
-
-    for i := 1; i < 10; i++ {
-        fmt.Print(fibonacci(i), " ")
-    }
 }
