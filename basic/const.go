@@ -4,7 +4,7 @@ import "fmt"
 
 type Weekday int
 
-func main() {
+func Test4() {
     const (
         Sunday Weekday = iota
         Monday

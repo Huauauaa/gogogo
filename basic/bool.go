@@ -9,7 +9,7 @@ func btoi(b bool) int {
     return 0
 }
 
-func main() {
+func Test2() {
     var aVar = 10
     fmt.Println(aVar == 5, aVar == 10)
     fmt.Println(btoi(true), btoi(false))

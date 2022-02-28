@@ -1,8 +1,8 @@
-package main
+package container
 
 import "fmt"
 
-func main() {
+func sliceDemo() {
     a := [3]int{1, 2, 3}
     fmt.Println(a, a[1:2], a[2:], a[:2])
 

@@ -4,6 +4,7 @@
 
 - [项目目录结构](https://makeoptim.com/golang/standards/project-layout)
 - [Go 语言入门教程](http://c.biancheng.net/golang/)
+- [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
 
 ## run
 

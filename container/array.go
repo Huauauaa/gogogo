@@ -1,8 +1,8 @@
-package main
+package container
 
 import "fmt"
 
-func main() {
+func arrayDemo() {
     var a [3]int
 
     fmt.Println(a, a[0], a[len(a)-1])

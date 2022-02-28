@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Test3() {
     var a byte = 'a'
     var a1 uint8 = 'a'
     fmt.Println(a == a1)

@@ -1,8 +1,8 @@
-package main
+package container
 
 import "fmt"
 
-func main() {
+func mapDemo() {
     scene := make(map[string]int)
     scene["route"] = 66
     scene["brazil"] = 4

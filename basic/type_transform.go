@@ -5,7 +5,7 @@ import (
     "math"
 )
 
-func main() {
+func Test11() {
     // a := 5.0
     // b := int(a)
     // fmt.Println(a, b)

@@ -1,11 +1,11 @@
-package main
+package container
 
 import (
     "container/list"
     "fmt"
 )
 
-func main() {
+func listDemo() {
     l := list.New()
 
     l.PushBack(1)

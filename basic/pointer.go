@@ -11,7 +11,7 @@ import (
 //      参数说明：使用 -help 时，会出现在说明中。
 var mode = flag.String("mode", "default value", "process mode")
 
-func main() {
+func Test7() {
     // 指针（pointer）在Go语言中可以被拆分为两个核心概念：
     // 类型指针，允许对这个指针类型的数据进行修改，传递数据可以直接使用指针，而无须拷贝数据，类型指针不能进行偏移和运算。
     // 切片，由指向起始元素的原始指针、元素数量和容量组成。
